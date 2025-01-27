@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imadabathuni Harsha Venkat - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        nav.navbar {
+            background-color: #1f1f1f;
+        }
+
+        nav.navbar .navbar-brand, nav.navbar .nav-link {
+            color: #ffffff;
+        }
+
+        nav.navbar .nav-link:hover {
+            color: #00aaff;
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        #home img {
+            width: 70%;
+            max-width: 1439px;
+            height: 450px;
+        }
+        .img-center{
+            text-align: center;
+        }
+        #home h1, #home p {
+            color: #00aaff;
+        }
+        .skills-bar {
+            margin-bottom: 20px;
+        }
+        .skills-bar .progress {
+            height: 20px;
+            border-radius: 10px;
+            background-color: #333333;
+        }
+        .skills-bar .progress-bar {
+            background-color: #00aaff;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background-color: #1f1f1f;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #00aaff;
+        }
+        .social-icons a:hover {
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            background-color: #00aaff;
+            border-color: #00aaff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0088cc;
+            border-color: #0088cc;
+        }
+
+        .container.certificate  img{
+            border: 2px solid #00aaff;
+            border-radius: 10px;
+        }
+        .container.project  img{
+            border: 2px solid #00aaff;
+            border-radius: 10px;
+        }
+        .project-card img {
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .certificate-logo {
+        width: 300px; /* Set the desired width */
+        height: 280px; /* Set the desired height */
+        object-fit: cover; /* Ensures the image fits within the specified dimensions */
+        margin-bottom: 15px; /* Adds some spacing below the image */
+        }
+        .photo-grid {
+        margin-top: 50px;
+        }
+        .photo-grid img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        }
+        .card-img-top {
+            height: 40vh;
+        }
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+        width: 8px;  /* Sets the width of the scrollbar */
+        }
+
+        ::-webkit-scrollbar-thumb {
+        background-color: rgb(243, 233, 233);  /* Dark gray color for the scrollbar thumb */
+        border-radius: 4px;  /* Optional: makes the scrollbar thumb rounded */
+        }
+
+        ::-webkit-scrollbar-track {
+        background-color: black;  /* Black background for the scrollbar track */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container"> 
+            <a class="navbar-brand" href="#">Harsha Venkat's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Live Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#keyprojects">Key Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#photos">My Photos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <div id="home">
+        <img src="./nxt-newbbp.png" alt="Profile Photo">
+        <h1>Imadabathuni Harsha Venkat</h1>
+        <p>Web Developer | AI Engineering</p>
+        
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container my-5 " >
+        <h2 class="text-secondary">About Me</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <p>My name is Imadabathuni Harsha Venkat. I am currently pursuing a degree in Computer Science Engineering (CSE) with a specialization in Artificial Intelligence and Machine Learning (AIML). During my first year, I undertook a project under the Electronics and Communication Engineering (ECE) department, 
+            focusing on banking security. This project aimed to enhance security measures within banking systems, leveraging my programming skills and interest in technology. The project was well-received, and I was recognized for my dedication and innovation. My Head of Department (HoD) appreciated my efforts 
+            and recommended me for further opportunities. I also participated in a competition where I developed a smart mirror project and won first prize. This project involved integrating various technologies to create an interactive mirror that displays useful information, enhancing everyday life.<span class="d-none d-md-block"> In addition to academic projects,
+            I actively sought practical experience through virtual internships in web development. These experiences allowed me to apply my knowledge and skills to real-world scenarios. I undertook projects such as building my own website and creating a resume website, which helped me sharpen my web development skills and gain hands-on experience in designing and implementing web applications. 
+            Furthermore, I worked on projects like developing a Netflix clone, which involved understanding complex systems and implementing user-friendly interfaces. Through these experiences, I have not only honed my technical abilities but also developed strong problem-solving and collaboration skills. I am enthusiastic about leveraging my background in CSE and my growing expertise in web development to contribute meaningfully to innovative projects and continue my journey of learning and growth in the field of technology.</span></p>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="container my-5">
+        <h2 class="text-secondary">Skills</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <div class="skills-bar">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+        </div>
+        <div class="skills-bar">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 85%;">85%</div>
+            </div>
+        </div>
+        <div class="skills-bar">
+            <p>PHOTOSHOP</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 75%;">75%</div>
+            </div>
+        </div>
+        <div class="skills-bar">
+            <p>SQL</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 65%;">65%</div>
+            </div>
+        </div>
+        <div class="skills-bar">
+            <p>GITHUB</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 55%;">55%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container my-5  project">
+        <h2 class="text-secondary">Live Projects</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-project-portifolio.png" class="card-img-top" alt="Project 1" >
+                    <div class="card-body text-center">
+                        <a href="https://iharsha.online/new-portfolio.html" class="btn btn-secondary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-project-dronex.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <a href="https://iharsha.online/dronex-website.html" class="btn btn-secondary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-project-netflix.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <a href="https://iharsha.online/NETFLIX.html" class="btn btn-secondary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-project-resume.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <a href="https://iharsha.online/resumebuilder.html" class="btn btn-secondary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./NXT-PROJECT-1.png" class="card-img-top" alt="Project 1" >
+                    <div class="card-body text-center">
+                        <a href="https://iharsha.online/" class="btn btn-secondary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-smart-mirror.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175758921708535808/" class="btn btn-secondary" target="_blank">View Post</a>
+                        <a href="./nxt-SMART_MIRROR_2.0.docx" class="btn btn-secondary" target="_blank">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="./nxt-ai.jpeg" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7260856137699217408/" class="btn btn-secondary" target="_blank">View Project </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Section -->
+    <div class="text-center my-5">
+        <a href="./nxt-resume .docx" class="btn btn-primary fa-fade" download>Download Resume</a>
+    </div>
+
+    <!-- Certificates Section -->
+    <div id="certificates" class="container my-5 certificate">
+        <h2 class="text-secondary">Certificates</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <div class="row text-center">
+            <div class="col-md-4 pb-3">
+                <img src="./blackc.jpg" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>C Programming Language Proficiency</h4>
+                <p>This certificate recognizes the recipient's proficiency in C programming, covering core concepts and skills essential for software development and computer science.</p>
+                <a href="./228T1A4248_c language_spoken tutorial2023-2024sem1.pdf" target="_blank" class="btn btn-secondary">View Certificate</a>
+            </div>
+            <div class="col-md-4 pb-3">
+                <img src="./png-transparent-java-development-kit-software-development-kit-computer-programming-computer-icons-programming-language-icon-text-logo-computer-programming-removebg-preview.png" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>Java Developer Certification</h4>
+                <p>This certificate recognizes the recipient's proficiency in Java development, covering core concepts, OOP, Java EE, and web application development.</p>
+                <a href="./228T1A4248_Java developer test_infosys springboard2023-2024sem1.pdf" target="_blank" class="btn btn-secondary">View Certificate</a>
+            </div>
+            <div class="col-md-4 pb-3">
+                <img src="./py.jpg" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>Python Foundation</h4>
+                <p>This certificate validates the recipient's proficiency in Python programming, covering core concepts and foundational skills for software development, data science, and machine learning.</p>
+                <a href="./228T1A4248_Python Foundation _infosys spring board2022-2023sem2.pdf" target="_blank" class="btn btn-secondary">View Certificate</a>
+            </div>
+            <div class="col-md-4 pb-3">
+                <img src="./nxt-wave-logo.jpeg" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>Build Your Own Responsive Website</h4>
+                <p>The "Build Your Own Responsive Website" certificate acknowledges the successful completion of a comprehensive course designed to equip learners with the skills to create modern, user-friendly, and responsive websites.</p>
+                <a href="./nxt-certificate-nxt.png" target="_blank" class="btn btn-secondary">View Certificate</a>
+            </div>
+            <div class="col-md-4 pb-3">
+                <img src="./nxt-tijer-logo.jpeg" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>Certification of publication</h4>
+                <p>The certificate awarded by TIJER - INTERNATIONAL RESEARCH JOURNAL recognizes Imadabathuni Harsha Venkat for publishing the research paper titled "SMART MIRROR" in Volume 11, Issue 4 (April 2024), with a Google Scholar Impact Factor of 8.57.</p>
+                <a href="./nxt-certificates-research.png" target="_blank" class="btn btn-secondary">View Certificate</a>
+            </div>
+            <div class="col-md-4 pb-3">
+                <img src="./nxt-wave-logo.jpeg" alt="Certificate Logo" class="img-fluid certificate-logo">
+                <h4>Build Your Own Static Website</h4>
+                <p>The "Build Your Own Static Website" certificate showcases your skills in creating responsive, user-friendly websites using core web development technologies.</p>
+                <a href="./nxt-static.pdf" target="_blank" class="btn btn-secondary">View Certificate </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class=" my-5 card-section container project" id="keyprojects">
+        <h2 class=" mb-4 text-secondary">Key Projects</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <div class="card-deck row">
+            <!-- Project 1 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/spaceship.png" class="card-img-top" alt="Spaceship Titanic">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaceship Titanic Rescue Mission</h5>
+                        <p class="card-text">A classification project using ensemble models to predict passenger fates during a spacetime anomaly. This project achieved an accuracy of 80.68% using VotingClassifier with tuned RandomForest and GradientBoosting models.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/heart-desease.jpg" class="card-img-top" alt="Heart Disease Prediction">
+                    <div class="card-body">
+                        <h5 class="card-title">Explainable Heart Disease Prediction</h5>
+                        <p class="card-text">An ensemble-quantum machine learning approach utilizing Quantum Support Vector Classifier (QSVC) and SHAP for feature contribution analysis. Compared QSVC with classical models to enhance prediction reliability and interpretability.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/fish.png" class="card-img-top" alt="Drone Fish Feeding">
+                    <div class="card-body">
+                        <h5 class="card-title">Drone Fish Feeding System</h5>
+                        <p class="card-text">An AI-enabled drone system developed using Jetson Nano to automate fish feeding operations. This project highlights how smart technologies can be applied to agriculture and aquaculture for efficiency and precision.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/waste.jpg" class="card-img-top" alt="Waste to Energy">
+                    <div class="card-body">
+                        <h5 class="card-title">Waste-to-Energy Ideathon</h5>
+                        <p class="card-text">An ideathon project that addresses waste management challenges by converting waste materials into sustainable energy. Focused on environmental impact, energy conversion efficiency, and economic feasibility.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/bank.jpg" class="card-img-top" alt="ATM Security">
+                    <div class="card-body">
+                        <h5 class="card-title">ATM Security System</h5>
+                        <p class="card-text">A security enhancement project integrating RF technology and facial recognition to ensure secure ATM transactions. Combines hardware and software components for real-time authentication and fraud prevention.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/Census.png" class="card-img-top" alt="Census Dashboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Interactive Census Data Dashboard</h5>
+                        <p class="card-text">A web application built to visualize and analyze India's census data. Utilized responsive design principles and APIs to provide users with an interactive and informative experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="container photo-grid" id="photos">
+        <h2 class="text-secondary">My Photos</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <!-- Photo grid -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="9.jpg" alt="Photo 9">
+                <img src="8.jpg" alt="Photo 8">
+                <img src="7.jpg" alt="Photo 7">
+                <img src="3.jpg" alt="Photo 3">
+            </div>
+            <div class="col-md-6">
+                <img src="6.jpg" alt="Photo 6">
+                <img src="5.jpg" alt="Photo 5">
+                <img src="./4 (1).jpg" alt="Photo 4">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container my-5">
+        <h2 class="text-secondary">Contact Me</h2>
+        <hr style="width: 200px;" class="opacity-75 ">
+        <p>Kukatpally, Hyderabad</p>
+        <p>Phone: +91 6304684447</p>
+        <p>Email: <a href="mailto:Imadabathuniharsha@gmail.com">Imadabathuniharsha@gmail.com</a></p>
+        <p>Let's get in touch. Send me a message:</p>
+        <a href="mailto:Imadabathuniharsha@gmail.com" class="btn btn-primary">Send Message</a>
+
+        <div class="social-icons my-4">
+            <a href="https://www.linkedin.com/in/harsha0101/" target="_blank"><i class="fa-brands fa-linkedin fa-fade"></i></a>
+            <a href="https://www.instagram.com/harsha.0101/" target="_blank"><i class="fa-brands fa-instagram fa-fade"></i></a>
+            <a href="https://github.com/hars0101" target="_blank"><i class="fa-brands fa-github fa-fade"></i></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 <a class="text-white" href="https://iharsha.online/" target="_blank">Imadabathuni Harsha Venkat</a> | All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/258ead571f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
